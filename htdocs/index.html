@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -7,6 +7,9 @@
 <title>Bootstrap Agency Template</title>
 
 <!-- Bootstrap -->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="css/component.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,19 +42,19 @@
 </nav>
 
 <!-- HEADER -->
-<header>
-  <div class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1 class="text-center">Data is beautiful, and data is</h1>
-          <p class="text-center">everywhere; i am a developer that focues on data-driven applications. </p>
-		  <p class="text-center">Because with enough data and a few programming tricks, the posibilities are trully <h1 class="text-center">infinite...</h1></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
+
+<div id="large-header" class="large-header" style="height: 305px;">
+    <canvas id="demo-canvas" width="1366" height="305"></canvas>
+    <h1 class="main-title">
+        Data is beautiful, data is
+        <span class="thin">
+            everywhere; i am a developer with a focus on data-driven applications.
+            Because with enough data and a few programming tools, the posibilities are trully
+        </span>
+    infinite...
+    </h1>
+</div>
+
 <!-- / HEADER --> 
 
 <!--  SECTION-1 -->
@@ -221,6 +224,10 @@
 <!-- / FOOTER --> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/script1.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
 </body>
